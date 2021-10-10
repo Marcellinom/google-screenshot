@@ -3,7 +3,7 @@ var puppeteer = require('puppeteer');
 const rUA = require('random-useragent');
 var app = express();
 
-app.listen(3000, console.log('http://localhost:3000'));
+app.listen(process.env.PORT || 3000, console.log('http://localhost:3000'));
 
 app.get('/:query', async (req,res) => {
     const browser = await puppeteer.launch();
