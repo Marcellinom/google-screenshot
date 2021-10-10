@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "express": "^4.17.1",
-    "webshot-node": "^0.18.2"
+    "puppeteer": "^10.4.0",
+    "random-useragent": "^0.5.0"
   }
 }
